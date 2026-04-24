@@ -1,7 +1,7 @@
 from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 
 # Selecting the model. You will be using "google/flan-t5-base" in this example.
-model_name = "google/flan-t5-base"
+model_name = "csebuetnlp/mT5_multilingual_XLSum"
 
 # Load the model and tokenizer
 model = AutoModelForSeq2SeqLM.from_pretrained(model_name)
